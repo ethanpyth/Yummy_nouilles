@@ -1,50 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    -->
-        <title>Accueil</title>
-    </head>
-    <body>
-        <header>
+    <title>Accueil</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
             <nav class="navbar navbar-expand px-2">
-                <div class="container-fluid">
-                    <a href="" title="Yummy nouilles" class="navbar-brand">
-                        <img src="static/img/Logo S.png" alt="logo yummy nouilles" class="" width="72" height="72">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-center fw-bold" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="menu.html">Menu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                    </div>
+                <a href="" title="Yummy nouilles" class="navbar-brand">
+                    <img src="static/img/Logo S.png" alt="logo yummy nouilles" class="h-100 w-100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center fw-bold" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav text-dark">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
-        </header>
-        <div class="row align-item-center">
-            <div class="col offset-1">
-                <h1 class="fw-bold">YUMMY NOUILLES</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col gx-1">
+                <h1 class="text-start fw-bold">YUMMY NOUILLES</h1>
                 <p>Les nouilles les plus <strong class="text-danger">YUMMY</strong> de tout paris</p>
                 <button type="button" class="btn btn-dark" title="Nos restaurants">NOS RESTAURANTS</button>
             </div>
             <div class="col">
-                <img src="static/img/Logo XL.png" alt="Logo yummy nouilles">
+                <img src="static/img/Logo XL.png" class="w-100 h-100" alt="Logo yummy nouilles">
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+        <h2 class="text-center fw-bold mb-5">Adresses</h2>
+        <div class="row align-items-center">
+            <div class="col">
+                <img src="static/img/Facade_Yummy_Nouille_2_1_18.png" alt="Facade du restaurant" class="w-100 h-100">
+                <span>Yummy noodle</span>
+                <p>185 rue de Lancry<br>75010 Paris</p>
+            </div>
+            <div class="col">
+                <img src="static/img/Facade_Yummy_Nouille_1_1_20.png" alt="Facade du restaurant" class="w-100 h-100">
+                <span>Yu noodle my</span>
+                <p>350 rue Saint-Guillaume<br>75007 Paris</p>
+            </div>
+            <div class="col">
+                <img src="static/img/Facade_Yummy_Nouille_3_1_34.png" alt="Facade du restaurant" class="w-100 h-100">
+                <span>Les yummy nouilles</span>
+                <p>208 rue au Maire <br>75003 Paris</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-danger p-2 mb-2">
+        <div class="col align-items-center">
+            <p class="text-center">COMMANDEZ MAINTENANT!</p>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <button type="button" class="btn btn-dark">CLICK & COLLECT</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col mb-5">
+            <h2 class="text-center text-decoration-underline">Notre savoir faire</h2>
+            <p>Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l’Asie de l’Est en plein coeur de Paris. Chaque année, nous reprenons tous nos plats pour les améliorer, les modifier et qu’ils vous plaisent toujours plus. Nous espérons que vous vous régalerez en dégustant nos plats.Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l’Asie de l’Est en plein coeur de Paris. Chaque année, nous reprenons tous nos plats pour les améliorer, les modifier et qu’ils vous plaisent toujours plus. Nous espérons que vous vous régalerez en dégustant nos plats.</p>
+        </div>
+        <div class="col mb-5">
+            <h2 class="text-center">Retrouvez nous sur les réseaux sociaux</h2>
+            <div class="row gx-3 gy-3">
+                <div class="col-4">
+                    <img src="static/img/Yummy Nouilles img 1.png" alt="yummy nouilles 1" class="w-100 h-100">
+                </div>
+                <div class="col-4">
+                    <img src="static/img/Yummy Nouilles img 2.png" alt="yummy nouilles 2" class="w-100 h-100">
+                </div>
+                <div class="col-4">
+                    <img src="static/img/Yummy Nouilles img 3.png" alt="yummy nouilles 3" class="w-100 h-100">
+                </div>
+                <div class="col-4">
+                    <img src="static/img/Yummy Nouilles img 4.png" alt="yummy nouilles 4" class="w-100 h-100">
+                </div>
+                <div class="col-4">
+                    <img src="static/img/Yummy Nouilles img 5.png" alt="yummy nouilles 5" class="w-100 h-100">
+                </div>
+                <div class="col-4">
+                    <img src="static/img/Yummy Nouilles img 6.png" alt="yummy nouilles 6" class="w-100 h-100">
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5 text-center">
+            <h2 class="text-decoration-underline">Contact</h2>
+            <p>
+                Vous souhaitez nous poser une question, nous faire un feedback ou tout simplement nou contacter? <br>
+                Écrivez nous à <a href="">yummy@noodles.fr</a> ou appelez nous au <strong>01 13 86 23 42</strong>
+            </p>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-end">
+                <img src="static/img/facebook 1.svg" alt="Facebook logo">
+                <img src="static/img/instagram 1.svg" alt="Facebook logo">
+                <img src="static/img/maps-and-flags 1.svg" alt="Facebook logo">
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
 </html>
